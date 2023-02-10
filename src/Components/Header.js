@@ -12,14 +12,14 @@ const Header = ({size, setShow}) => {
     <Container>
      
     <span className="my_shop" onClick={()=>setShow(true)}>
-              Home
+             <h1 style={{cursor:'pointer',color:'white'}}> Home</h1>
             </span>
       
         <div className="cart" onClick={()=>setShow(false)}>
-                <span>
-                    <i className="fas fa-cart-plus"></i>
+                <span >
+                <i class="fa fa-shopping-cart" aria-hidden="true" style={{fontSize:"2rem",color:'white'}}></i>
                 </span>
-                <span>{size}</span>
+                <span style={{height:"25px",width:"25px",color:"red"}}>{size}</span>
             </div>
      
     </Container>

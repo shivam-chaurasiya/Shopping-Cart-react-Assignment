@@ -55,7 +55,7 @@ function App() {
 		}
      		
 		{ 
-      warning && <div>Item is already added to your cart</div>
+      warning && <div style={{borderBlock:"2",  border:"1px solid red", position:"absolute" , backgroundColor:"red" , top:"60px" , right:"10px"}}>Item is already added to your cart</div>
     }
     
     </>
